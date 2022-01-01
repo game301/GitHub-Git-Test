@@ -1,6 +1,8 @@
 const mainHeader = document.querySelector("#main-header");
 
-mainHeader.addEventListener("click", function (e) {
+console.log(mainHeader);
+
+mainHeader.addEventListener("click", (e) => {
     e.target.style.backgroundColor = "red";
     console.log("Sikeres event!");
     console.log(mainHeader);
@@ -10,6 +12,6 @@ function logSomething(something) {
     console.log(something);
 }
 
-let somethingVariableTest = "Hello test!";
+logSomething("Hello teszt!");
 
-logSomething(somethingVariableTest);
+module.exports = logSomething;
