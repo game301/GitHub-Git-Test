@@ -4,4 +4,4 @@ function logSomething(something) {
 
 logSomething("Hello teszt!");
 
-module.exports = logSomething;
+//module.exports = logSomething;
