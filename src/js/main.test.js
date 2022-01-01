@@ -4,6 +4,6 @@
 
 const logSomething = require("./main");
 
-test("Logs something...", () => {
-    expect(logSomething("fuck you")).toBe("fuck you");
+test("Logs something:", (something) => {
+    expect(logSomething("Hello teszt!")).toBe(console.log("Hello teszt!"));
 });
